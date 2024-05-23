@@ -1,1 +1,38 @@
+SQL stands for Structured Query Language designed to manipulate data in the Relational Database Management Systems (RDBMS).
+
+Today, SQL is one of the most common programming languages for interacting with data.
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+For creating a database we have to write the following query.
+
+CREATE DATABASE <databasename>   #Syntax#
+CREATE DATABASE data_practice  
+
+For showing the database which we have created and which are present.
+show databases;
+
+O/p
+# Database
+'classicmodels'
+'data_parctice'
+'information_schema'
+'mysql'
+'performance_schema'
+'sakila'
+'sys'
+'world'
+
+For using the database which ever we want we have to write the following query.
+USE <Database_Name>
+USE data_parctice #It will make the given databse as default.
 
