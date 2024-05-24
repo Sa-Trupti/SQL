@@ -4,3 +4,5 @@ emp_name char(20),
 emp_designation char(15),
 emp_salary int
 );
+
+It will create a table name employee.
