@@ -6,3 +6,7 @@ emp_salary int
 );
 
 It will create a table name employee.
+
+#For get to know what is in the table we hve to write the following command.
+Select * from <Table-Name>;
+select * from emplyoee;
