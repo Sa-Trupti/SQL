@@ -10,3 +10,10 @@ It will create a table name employee.
 #For get to know what is in the table we hve to write the following command.
 Select * from <Table-Name>;
 select * from emplyoee;
+
+
+create table student(
+s_id int,
+s_name char(15),
+s_per float
+);
