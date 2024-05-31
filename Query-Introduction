@@ -28,4 +28,4 @@ values(1,'Trupti', 77.56),
 select * from student;
 select s_id from student;
 
-it will show table.
+
