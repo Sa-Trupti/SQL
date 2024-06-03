@@ -25,6 +25,8 @@ values(1,'Trupti', 77.56),
 (3,'Deepti',65.90),
 (4,'Ayush',94.78);
 
+
+
 select * from student;
 select s_id from student;
 
