@@ -1,1 +1,22 @@
+use classicmodels;
+show tables;
+select * from customers;
+
+select contactLastName,contactFirstName,creditLimit,phone
+from customers;
+
+select * from employees;
+select lastName,firstName,emailv
+from employees; 
+
+select* from offices;
+select city,phone,postalCode,country from offices;
+
+select * from orderdetails;
+select  productCode,priceEach,quantityOrdered
+from orderdetails;
+
+select * from orders;
+select orderNumber,orderDate,shippedDate
+from orders;
 
