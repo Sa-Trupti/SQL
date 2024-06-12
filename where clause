@@ -1,1 +1,20 @@
+select contactLastName,contactFirstName,creditLimit
+from customers
+where country='USA';
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+where creditLimit>100000;
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+where creditLimit<50000;
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+where creditLimit>100000 and country='UK';
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+where creditLimit<50000 or country='AUSTRALIA';
 
