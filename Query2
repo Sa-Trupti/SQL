@@ -20,3 +20,5 @@ select * from orders;
 select orderNumber,orderDate,shippedDate
 from orders;
 
+SELECT * FROM Customers
+WHERE Country='Mexico';
