@@ -18,3 +18,5 @@ select contactLastName,contactFirstName,creditLimit
 from customers
 where creditLimit<50000 or country='AUSTRALIA';
 
+SELECT * FROM Customers
+WHERE Country='Mexico';
