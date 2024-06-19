@@ -2,3 +2,16 @@ The ORDER BY keyword is used to sort the result-set in ascending or descending o
 
 SELECT * FROM Products
 ORDER BY Price;
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+order by creditLimit ;
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+order by creditLimit desc;
+
+
+select contactLastName,contactFirstName,creditLimit
+from customers
+order by contactFirstName desc;
