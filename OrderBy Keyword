@@ -15,3 +15,6 @@ order by creditLimit desc;
 select contactLastName,contactFirstName,creditLimit
 from customers
 order by contactFirstName desc;
+
+SELECT * FROM Customers
+ORDER BY CustomerName ASC;
