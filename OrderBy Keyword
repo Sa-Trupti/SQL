@@ -19,4 +19,3 @@ order by contactFirstName desc;
 SELECT * FROM Customers
 ORDER BY CustomerName ASC;
 
-veagfehrjloikjuhwgqfcwgehrjithwgferhtjireuwygrhutiuregyhutjg
