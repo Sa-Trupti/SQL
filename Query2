@@ -19,4 +19,3 @@ from orderdetails;
 select * from orders;
 select orderNumber,orderDate,shippedDate
 from orders;
-
